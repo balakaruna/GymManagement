@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body{
+    background-image: url(./images/black.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+body {
+    
+    background-image: url(./images/loginBG.jpg);
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.regform{
+    width: 510px;
+    align-items: center;
+    margin: 100px auto;
+    padding: 40px 20px 20px ;
+    background-color: #00000033;
+    color: rgb(255, 255, 255);
+    /* font-size: 30px; */
+}
+.regform h1{
+    text-align: center;
+    color:rgba(243, 242, 242, 0.692);
+}
+.regform .textlable{
+    display: block;
+}
+.regform .input{
+    /* font-size: larger; */
+    text-transform:capitalize;
+}
+.input input{
+    width: 90%;
+    font-size: 1em;
+    border: 1.5px solid black;
+    border-radius: 8px;
+    padding: 5px 20px;
+    box-shadow: 3px;
+    box-sizing: border-box;
+    margin: 5px 0px 10px;
+
+}
+.btn{
+    text-align:center;
+}
+button{
+   background-color:rgba(19, 13, 9, 0.692);
+   color: aliceblue;
+   border: 2px solid red;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 25px;
+   font-weight: bolder;
+   border-radius: 10px;
+   padding: 4px 20px;
+   margin-top: 25px;
+}
+.radio input{
+   accent-color:rgb(124, 202, 207);
+   transform: scale(1.2);
+}

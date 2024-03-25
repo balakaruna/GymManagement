@@ -1,0 +1,141 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 55px;
+    line-height: 0px 50px;
+    padding: 15px 100px;
+    position: fixed;
+    background-image: linear-gradient(#3498db,#2c3e50);
+}
+nav .logo p{
+    font-size: 32px;
+    font-weight: bold;
+    float:left;
+    padding-bottom: 30px;
+    color: salmon;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style:none;
+}
+nav li a{
+   font-size: 18px;
+   text-transform: uppercase;
+   padding: 0px 30px;
+   color:whitesmoke;
+   text-decoration: none;
+}
+nav li a:hover{
+    color: #d41c1c;
+    transition: all 0.3s ease 0s;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 55px;
+    line-height: 0px 50px;
+    padding: 15px 100px;
+    position: fixed;
+    background-image: linear-gradient(#3498db,#2c3e50);
+}
+nav .logo p{
+    font-size: 32px;
+    font-weight: bold;
+    float:left;
+    padding-bottom: 30px;
+    color: salmon;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style:none;
+}
+nav li a{
+   font-size: 18px;
+   text-transform: uppercase;
+   padding: 0px 30px;
+   color:whitesmoke;
+   text-decoration: none;
+}
+nav li a:hover{
+    color: #d41c1c;
+    transition: all 0.3s ease 0s;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    
+    background-image: url(./images/black.jpg);
+    color: aliceblue;
+    font-size: 18px;
+}
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #555;
+}
+
+.billingform h1{
+    text-align: center; 
+    margin-top: px;
+}
+.blabel {
+    display: inline-block;
+    width: 150px;
+}
+
+.b1 {
+    margin-bottom: 30px;
+    margin-left: 450px;
+}
